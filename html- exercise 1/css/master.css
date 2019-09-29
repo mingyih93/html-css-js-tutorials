@@ -1,0 +1,37 @@
+header .top{
+  background: yellow;
+  text-align: center;
+}
+
+footer{
+  text-align: center;
+  margin-top: 5px;
+  padding: 5px;
+  clear: both;
+}
+
+ul{
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+}
+
+.left-menu{
+  float: left;
+  width: 20%;
+}
+
+.main-body{
+  float: left;
+  width: 50%;
+  border-left: 2px solid black;
+  padding-left: 10px;
+}
+
+.sidebar{
+  float: right;
+  width: 20%;
+  border-style: dotted;
+  text-align: right;
+  padding-right: 10px;
+}
