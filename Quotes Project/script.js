@@ -1,12 +1,36 @@
-const colorBtn = document.querySelector('.colorBtn');
-const bodyBcg = document.querySelector('body');
+const simpleQuotes = [
+  {
+    name:'author number 1',
+    quote: 'quote number 1'
+  },
+  {
+    name:'author number 2',
+    quote: 'quote number 2'
+  },
+  {
+    name:'author number 3',
+    quote: 'quote number 3'
+  },
+  {
+    name:'author number 4',
+    quote: 'quote number 4'
+  },
+  {
+    name:'author number 5',
+    quote: 'quote number 5'
+  }
+]
 
-const colors = ['yellow','green','green','#3b5998']
+const quoteBtn = document.querySelector('#quoteBtn');
+const quoteAuthor = document.querySelector('#quoteAuthor');
+const quote = document.querySelector('#quote');
 
-colorBtn.addEventListener('click',changeColor)
+quoteBtn.addEventListener('click', displayQuote);
 
-function changeColor (){
-//bodyBcg.style.backgroundColor = colors[2];
-let random = Math.floor(Math.random()*colors.length)
-bodyBcg.style.backgroundColor = colors[random];
+function displayQuote() {
+
+    let number = Math.floor(Math.random()*simpleQuotes.length);
+    quoteAuthor.innerHTML = simpleQuotes[number].name;
+    quote.innerHTML = simpleQuotes[number].quote;
+
 }
