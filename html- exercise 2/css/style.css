@@ -1,73 +1,51 @@
 
 body{
-  font-family: Arial;
-  font-size: 16px;
-}
-
-.column1{
-  float: left;
-  width: 70%;
-  padding: 10px;
-  border-right: 2px solid black;
-}
-
-.navbar{
-  float: left;
-  width: 25%;
-}
-
-#years{
-  font-weight: bold;
-  padding-right: 30px;
-}
-
-#data{
-  font-style: italic;
-}
-
-
-h1{
-  font-family:"Georgia";
-  font-size: 24px;
-  font-weight: bold;
-  color: blue;
-  letter-spacing: 1em;
-  word-spacing: 1em;
-  text-align: center;
-  background-color: gray;
-
-}
-
-.head2{
-  font-family:"Georgia";
-  color: red;
-  font-size: 18px;
-  letter-spacing: 1em;
-}
-
-a:link{
-  text-decoration: none;
-}
-
-a:hover{
-  text-decoration: underline;
-}
-
-header{
-  padding-bottom: 30px;
-}
-
-table{
-  border-spacing: 0;
-  border-collapse: collapse;
-
-}
-
-tr{
   padding: 0;
   margin: 0;
 }
 
-li{
-  padding-bottom: 50px;
+header{
+  text-align: center;
+
+}
+
+img{
+  vertical-align: middle;
+}
+
+nav{
+   display: block;
+   text-align: center;
+   padding-bottom: 20px;
+
+}
+
+nav a:link{
+  display: inline-block;
+  padding-right: 30px;
+  color: red;
+}
+
+section{
+  display:block;
+}
+
+.news{
+  float: left;
+  width: 45%;
+  padding-left: 30px;
+  border-right: 2px solid black;
+}
+
+.announcements{
+  float: right;
+  width: 45%;
+  padding-left: 30px;
+}
+
+footer{
+  text-align: center;
+  padding-top: 20px;
+
+  clear: both;
 }
